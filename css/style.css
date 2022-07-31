@@ -1,0 +1,116 @@
+#demo{
+    color:blueviolet;
+    padding:10px;
+    border:1px solid;
+}
+
+
+#cards{
+    display: none;
+}
+
+
+//Loader Pourcentage 
+
+
+
+
+.preloader{
+  position:absolute;
+  top:2000px;
+  left:0;
+  right:0;
+  bottom:0;
+  margin:auto;
+  width:100vw;
+  height:100vh;
+  background:#1D1D1D;
+  visibility:hidden;
+  opacity:0;
+  transition:all 0.5s ease;
+  z-index:99999999999999;
+}
+.preloader_inner {
+  position: absolute;
+  top: 2000px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 4em;
+  height: 4em;
+  line-height: 4em;
+  text-align: center;
+  font-size: 3em;
+  font-family: monospace;
+  font-weight: 300;
+  color: #333;
+}
+
+
+
+
+.page{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 100%;
+  height: 4em;
+  line-height: 1em;
+  text-align: center;
+  font-size: 1em;
+  font-family: monospace;
+  font-weight: 300;
+  color: #4E4E51;
+  visibility:hidden;
+  opacity:0;
+  transition:all 0.5s ease;
+}
+
+.show{
+  visibility:visible !important;
+  opacity:1 !important;
+  transition:all 0.5s ease;
+}
+.list-group-item {
+    background: transparent;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 30px;
+    color:rgb(243, 247, 9);
+font-family: qatar2022-bold-arabic,roboto,Arial,Helvetica,sans-serif;
+    background-color: transparent;
+     text-shadow: 0 0 4px rgb(53, 187, 109);
+
+}
+
+
+
+.al{
+  background-image: url("https://action.scholastic.com/content/dam/classroom-magazines/action/issues/2017-2018/050118/audio/Progress.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+   background-position: center;
+   padding: 10px;
+    background-attachment: fixed;
+    
+}
+.texts{
+    color:rgb(107, 99, 133);
+font-family: graphik-medium-arabic,Arial,Helvetica,sans-serif;
+
+}
+
+.footer{
+background-color: transparent;
+margin-top: -50px;
+}
+
+.error{
+    color: red;
+    margin-top:-20px;
+}
